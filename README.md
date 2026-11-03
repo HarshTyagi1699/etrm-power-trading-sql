@@ -36,7 +36,7 @@ The database (`ctrm_power_db`) consists of four normalized tables linked via for
   * $\text{Buyer MtM} = (\text{Closing Price} - \text{Contract Price}) \times \text{Quantity (MW)}$
   * $\text{Seller MtM} = (\text{Contract Price} - \text{Closing Price}) \times \text{Quantity (MW)}$
 
-### 3. Portfolio-Level MtM P&L Summary
+### 3. MtM P&L Summary
 * **Business Problem:** Aggregate net volume (MW) and unrealized P&L across trade lifecycle statuses (`Scheduled`, `Flowing`, `Completed`) for EOD management reporting.
 
 ### 4. Market Risk Stress Testing (20% Price Shock Scenario)
